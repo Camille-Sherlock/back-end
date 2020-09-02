@@ -23,6 +23,6 @@ public class Order {
     private String name;
     private int price;
     private int number;
-    private String unit;
+    private int unit;
     private String status;
 }
