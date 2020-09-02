@@ -1,13 +1,18 @@
 package goods.demo;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
 
+@AutoConfigureMockMvc
 @SpringBootTest
 class AddGoodsApplicationTests {
 
+
 	@Test
-	void contextLoads() {
+	public void addGood () {
+
+
 	}
 
 }
